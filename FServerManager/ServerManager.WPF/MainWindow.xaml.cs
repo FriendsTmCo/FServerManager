@@ -20,9 +20,20 @@ namespace ServerManager.WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        public DateTime DateTime { get; set; } = DateTime.Now;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AddPresetButton_Click(object sender, RoutedEventArgs e)
+        {
+            var addButton = sender as FrameworkElement;
+            if (addButton != null)
+            {
+                addButton.ContextMenu.IsOpen = true;
+            }
         }
     }
 }
