@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ServerManager.UWP")]
+[assembly: AssemblyTitle("Services.UWP")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ftm")]
-[assembly: AssemblyProduct("ServerManager.UWP")]
-[assembly: AssemblyCopyright("Friends ©  2021")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Services.UWP")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -306,6 +306,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
@@ -791,6 +801,16 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
         }
       }
     },
@@ -1279,6 +1299,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -1766,6 +1796,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
@@ -2251,6 +2291,16 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
         }
       }
     },
@@ -2739,6 +2789,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -3224,6 +3284,16 @@
         },
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
+        }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
         }
       }
     },
@@ -3711,6 +3781,16 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "Services.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Services.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Shared.dll": {}
         }
       }
     }
@@ -8143,11 +8223,17 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "Services.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Services.Shared/Services.Shared.csproj",
+      "msbuildProject": "../Services.Shared/Services.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
+      "Services.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8183,7 +8269,11 @@
       },
       "frameworks": {
         "uap10.0.17763": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\project\\FTEAM\\FServerManager\\FServerManager\\Services.Shared\\Services.Shared.csproj": {
+              "projectPath": "D:\\project\\FTEAM\\FServerManager\\FServerManager\\Services.Shared\\Services.Shared.csproj"
+            }
+          }
         }
       }
     },

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PjZsOHWRZs6Gu5AODqHDo/d9TbiASYRVlmTC9sPpnRWoEIyX1CkKPKUz2UyHfs230R8VPCZf9szrOV8tlRlJ8w==",
+  "dgSpecHash": "iEA3ged1CH6RTMik3RNUd1KDvMYRq1gy6AKZLA8UpJDsghvOBXxr0ft2AMkahv636isx0Lx5Xz4uBd9HPyn7WQ==",
   "success": true,
   "projectFilePath": "D:\\project\\FTEAM\\FServerManager\\FServerManager\\ServerManager.WPF\\ServerManager.WPF.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Amir Hossin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

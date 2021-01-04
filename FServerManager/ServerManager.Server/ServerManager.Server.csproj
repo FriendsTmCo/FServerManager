@@ -9,4 +9,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.0-rc.2.20475.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Api\" />
+    <Folder Include="CMDS\Linux\" />
+    <Folder Include="CMDS\Mac\" />
+    <Folder Include="CMDS\Unix\" />
+    <Folder Include="CMDS\Windows\" />
+  </ItemGroup>
+
 </Project>
