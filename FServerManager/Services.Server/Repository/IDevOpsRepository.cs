@@ -7,6 +7,7 @@ namespace Services.Server.Repository
 {
     public interface IDevOpsRepository
     {
-        Task<int> InsertNewSite();
+        Task<int> InsertNewSite(NewSiteViewModel newSite);
+        Task<int> UpdateExistSite();
     }
 }
